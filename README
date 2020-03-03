@@ -1,0 +1,35 @@
+Name: Shengyi Jia
+
+E-mail: sjia6@u.rochester.edu
+Lab: CSC172 TR 1650-1805
+Project1:
+Infix to postfix converter and infix calculator:
+
+In InfixCalculator, the code reads the name of the test file and put them into a ArrayList of String.
+Then I delete all the white space in the string and split them by the operator since a calculator(not parentheses) must
+separates two numbers.
+After that I use the shunting-yard algorithm to convert infix expression to postfix expression and evaluate the postfix
+expression.
+Finally I write all the result into a file.
+
+Where exceptions are likely encountered, I use try-catch too prevent the code stop at those place and print what the
+exception is. Also my code support exponential and trigonometry calculation. These two points can be consider as extra
+credit.
+
+testcase.txt is a test file created by myself that would sufficient show how my code woks well. result.txt is the
+expected output. infix_expr_short.txt is the standard input on the BlackBoard, I include this file in terms of
+convenience.
+
+List of files:
+infix_expr_short.txt
+testcase.txt
+result.txt
+InfixCalculator.java
+MyQueue.java
+MyStack.java
+Queue.java
+Stack.java
+URLinkedList.java
+URList.java
+OUTPUT
+README
