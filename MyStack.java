@@ -1,8 +1,3 @@
-/*
-Name: Shengyi Jia
-Netid: sjia6
-Lab Time: TR 1650-1805
- */
 public class MyStack<AnyType> implements Stack{
 
     URLinkedList list = new URLinkedList();

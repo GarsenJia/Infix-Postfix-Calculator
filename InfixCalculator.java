@@ -1,8 +1,3 @@
-/*
-Name: Shengyi Jia
-Netid: sjia6
-Lab Time: TR 1650-1805
- */
 import java.io.*;
 import java.util.*;
 
